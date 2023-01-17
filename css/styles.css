@@ -1,3 +1,27 @@
 body {
     background-color: antiquewhite;
 }
+
+h1 {
+    font-size: 30px;
+}
+
+.top {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    height: 400px;
+    width: 300px;
+    border: black 2px solid;
+    background-color: grey;
+    margin: 10px;
+    flex: 0 0 400px;
+}
