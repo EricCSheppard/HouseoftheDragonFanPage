@@ -3,10 +3,27 @@ body {
 }
 
 h1 {
+    font-size: 48px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+h2 {
     font-size: 30px;
+    font-family: 'MedievalSharp', cursive;
+
+}
+
+p {
+    font-size: 24px;
+    font-family: 'MedievalSharp', cursive;
+    color: white;
 }
 
 .top {
+    text-align: center;
+}
+
+.search {
     text-align: center;
 }
 
@@ -24,4 +41,54 @@ h1 {
     background-color: grey;
     margin: 10px;
     flex: 0 0 400px;
+}
+
+#Rhaenyra {
+    background-image: url('https://hollywoodlife.com/wp-content/uploads/2022/08/Rhaenyra-Targaryen-everything-you-need-to-know-vertical.jpg');
+    background-position: center;
+    /* background-size: cover; */
+    
+}
+
+#Alicent {
+    background-image: url('https://www.thetimelinegeek.com/wp-content/uploads/2022/09/Alicent-Hightower-older.jpg');
+    background-position: center;
+    /* background-size: cover; */
+}
+
+#Viserys {
+    background-image: url('https://helios-i.mashable.com/imagery/articles/00oLPtDGfxnvMBgynSV6mba/hero-image.fill.size_1200x1200.v1662648132.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#Daemon {
+    background-image: url('https://wikiofthrones.com/wp-content/uploads/2022/10/daemon-targaryen-house-of-the-dragon-3687708-e1666726536939.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#Laenor {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/laenor-1662904587.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#Laena {
+    background-image: url('https://img.fresherslive.com/latestnews/images/articles/origin/2022/10/20/why-did-laena-velaryon-kill-herself-635125ed3ffd4-1666262509.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.bio {
+    width: 55px;
+
+}
+
+.status {
+    width: 55px;
+
 }
