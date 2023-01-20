@@ -1,22 +1,35 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(37, 35, 35);
 }
 
 h1 {
     font-size: 48px;
     font-family: 'MedievalSharp', cursive;
+    color: whitesmoke;
 }
 
 h2 {
     font-size: 30px;
     font-family: 'MedievalSharp', cursive;
+    color: whitesmoke;
+}
+
+.page {
+    display:grid;
 
 }
 
+#info {
+    font-family: 'MedievalSharp', cursive;
+    color: whitesmoke;
+}
+
 p {
-    font-size: 24px;
+    position: relative;
+    font-size: 22px;
     font-family: 'MedievalSharp', cursive;
     color: white;
+    top: 300px;
 }
 
 .top {
@@ -28,11 +41,13 @@ p {
 }
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    /* width: 1200px; */
 }
 .card {
     height: 400px;
@@ -40,7 +55,7 @@ p {
     border: black 2px solid;
     background-color: grey;
     margin: 10px;
-    flex: 0 0 400px;
+    flex: 0 0 350px;
 }
 
 #Rhaenyra {
@@ -81,8 +96,6 @@ p {
     background-size: cover;
 }
 
-
-
 .bio {
     width: 55px;
 
@@ -92,3 +105,4 @@ p {
     width: 55px;
 
 }
+
